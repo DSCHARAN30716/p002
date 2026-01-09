@@ -6,7 +6,7 @@ class App extends Component {
     super();
     this.state = {
       data: {
-        name: 'sampathvarmamudunuri',
+        name: 'Dasari sri charan',
         role: 'Personal Blog',
         bio: 'Software Architech & Minimalist',
         status: [
@@ -26,7 +26,7 @@ class App extends Component {
       <div className="app">
         <div className="profile">
           {/* put default.png inside public/ */}
-          <img src={BASEURL + 'default.png'} alt="profile" />
+          <img src={BASEURL + 'csk2.jpg'} alt="profile" />
           <div className="info">
             <p className="name">{data.name}</p>
             <p className="role">{data.role}</p>
