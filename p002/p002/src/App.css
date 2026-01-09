@@ -1,0 +1,82 @@
+.app{
+  height: 100%;
+  overflow: auto;
+}
+.app .profile{
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+}
+.app .profile img{
+  width: 100px;
+  height: 100px;
+}
+.app .profile .info{
+  margin-left: 50px;
+}
+.app .profile .info .name{
+  font-size: 16pt;
+  margin-bottom: 10px;
+}
+.app .profile .info .role{
+  font-size: 9pt;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.app .profile .info .bio{
+  margin-bottom: 5px;
+}
+.app .profile .info button{
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.app .profile input .follow{
+  width: 75px;
+
+}
+.app .profile .info .message{
+  width: 75px;
+  background: #050505;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+.app .status{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 100px;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+.app .status .info{
+  text-align: center;
+}
+.app .status .info .value{
+  font-weight: bold;
+}
+.app .status .info .label{
+  color: #ccc;
+}
+@media (max-width: 768px) {
+  .app{
+    padding: 10px;
+    width: calc(100% - 20px);
+  }
+  .app .profile{
+    width: 100%;
+    flex-direction: column;
+  }
+  .app .profile .info{
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .app .status{
+    width: 100%;
+  }
+}
